@@ -1,0 +1,20 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean.RNAiSilencingComplex
+import HautevilleHouse.MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean.SmallInterferingRNAPathway
+import HautevilleHouse.MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean.MicroRNABiogenesis
+import HautevilleHouse.MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean.RdRPAmplification
+
+namespace HautevilleHouse
+namespace MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean
+
+structure RNAiAdmittedObject where
+  risc : RISCFormation
+  sirna : SiRNAPathway
+  mirna : MiRNABiogenesis
+  rdrp : RdRPAmplification
+
+def RNAiWitnessClosed (O : RNAiAdmittedObject) : Prop :=
+  RISCClosed O.risc ∧ SiRNAPathwayClosed O.sirna ∧ MiRNABiogenesisClosed O.mirna ∧ RdRPAmplificationClosed O.rdrp
+
+end MolecularBiologyRnaInterferenceLemmaCanonicalLaneLean
+end HautevilleHouse
